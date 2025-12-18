@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f9f9f9;
+}
+
+.navbar {
+    border-bottom: 1px solid #eaeaea;
+}
+
+.list-group-item {
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    border: 1px solid #eaeaea;
+    transition: all 0.2s ease-in-out;
+}
+
+.list-group-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.btn-primary {
+    background-color: #0070f3;
+    border-color: #0070f3;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-outline-danger {
+    color: #e53e3e;
+    border-color: #e53e3e;
+}
+
+.btn-outline-danger:hover {
+    background-color: #e53e3e;
+    color: #fff;
+}
